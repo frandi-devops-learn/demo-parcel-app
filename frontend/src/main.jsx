@@ -28,7 +28,7 @@ import {
 } from 'lucide-react';
 import './styles.css';
 
-const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3000/api';
+const apiUrl = import.meta.env.VITE_API_URL || 'https://demo-api.frandisharing.com/api';
 
 const emptyForm = {
   senderName: '',
